@@ -1,0 +1,18 @@
+Senha do PG_Admin
+
+Alpha360
+
+
+______________________
+
+
+
+Para CHecar a Versão:
+
+# pg_config --version
+Client version:
+
+# psql --version
+
+PostgreSQL 12.4 
+(Debian 12.4-1.pgdg100+1)
