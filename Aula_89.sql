@@ -71,9 +71,14 @@ FROM tipos AS t, fabricantes AS f, produtos AS p
 		
 -- Order By ASC
 -- LIMIT no final especifica a quantidade de linhas a serem exibidas.
+-- -> Os três Ultimos Itens:
 SELECT id, nome, id_fabricante, quantidade, id_tipo FROM produtos ORDER BY id DESC LIMIT 3;
+
+-- OS TRÊS PRIMEIROS ITENS:
+SELECT id, nome, id_tipo, id_fabricante, quantidade  FROM produtos ORDER BY id ASC LIMIT 3;
 
 SELECT id, nome, id_tipo, id_fabricante, quantidade  FROM produtos ORDER BY id ASC;
 
 -- Order by DESC
+-- -> 5 ultimos itens:
 SELECT id, nome, id_tipo, id_fabricante, quantidade FROM produtos ORDER BY quantidade DESC LIMIT 5;
