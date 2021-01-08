@@ -1,0 +1,7 @@
+Fazer diagramas Online para usar no PGADMIN (o mesmo não possui uma ferramenta nata para estes fins (como o WorkBench 
+por exemplo))
+
+https://dbdiagram.io/d
+
+
+Logando com GitHub ou Google neste site é possivel depois de fazer os esquemas\desenhos, exporta-los para o PGADMIN.

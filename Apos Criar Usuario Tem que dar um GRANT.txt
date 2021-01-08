@@ -1,0 +1,11 @@
+n summary, use CREATE to create a user, and use GRANT to add privileges:
+
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON database.* TO 'username'@'localhost'; 
+
+
+
+
+https://stackoverflow.com/questions/31111847/identified-by-password-in-mysql
+
+https://chartio.com/resources/tutorials/how-to-grant-all-privileges-on-a-database-in-mysql/
